@@ -1,11 +1,19 @@
 import "./App.css";
 //import Greeting from "./Greeting"
 
+//function Notifications({ notifications }) {
+  //if (notifications.length > 0) {
+    //return <p>You have {notifications.length} notifications today!</p>;
+  //}
+  //return null;
+//}
+
 function Notifications({ notifications }) {
-  if (notifications.length > 0) {
-    return <p>You have {notifications.length} notifications today!</p>;
-  }
-  return null;
+  return (
+    notifications.length > 0 && (
+      <p>You have {notifications.length} notifications today!</p>
+    )
+  );
 }
 
 function App() {
