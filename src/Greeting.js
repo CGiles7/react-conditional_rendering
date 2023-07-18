@@ -1,6 +1,6 @@
-function Greeting({ language }) {
-    return <h1>{language === "es" ? "Hola" : "Hello"}!</h1>;
-  }
+//function Greeting({ language }) {
+    //return <h1>{language === "es" ? "Hola" : "Hello"}!</h1>;
+  //}
 
 //or:
 //function Greeting({ language }) {
@@ -15,4 +15,4 @@ function Greeting({ language }) {
     //}
   //}
 
-  export default Greeting;
+  //export default Greeting;
